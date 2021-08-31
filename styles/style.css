@@ -95,7 +95,7 @@ label.buscar:before {
   font-size: 32px;
   color: #fff;
   bottom: 120px;
-  left: 70px;
+  left: 65px;
 }
 
 .reproductor .control {
@@ -134,23 +134,23 @@ label.buscar:before {
 }
 
 .like:before {
-  content: "\f08a";
   cursor: pointer;
+  content: "\f08a";
 }
 
 .aleatorio:before {
-  content: "\f074";
   cursor: pointer;
+  content: "\f074";
 }
 
 .repetir:before {
-  content: "\f01e";
   cursor: pointer;
+  content: "\f01e";
 }
 
 .masOpciones:before {
-  content: "\f141";
   cursor: pointer;
+  content: "\f141";
 }
 
 #like:checked + label.like:before {
@@ -160,23 +160,22 @@ label.buscar:before {
 }
 
 #aleatorio:checked + label.aleatorio:before {
-  cursor: pointer;
   color: #ff564c;
+  cursor: pointer;
 }
 
 #repetir:checked + label.repetir:before {
-  cursor: pointer;
   color: #ff564c;
+  cursor: pointer;
 }
 
 #masOpciones:checked + label.masOpciones:before {
-  cursor: pointer;
   color: #ff564c;
+  cursor: pointer;
 }
 
 audio {
   visibility: hidden;
 }
-
 
 /*# sourceMappingURL=style.css.map */

@@ -47,6 +47,7 @@ body {
 
 label {
     &.menuHamburguesa:before {
+        cursor: pointer;
         position: absolute;
         content: "\f0c9";
         color: #b6afaf;
@@ -56,6 +57,7 @@ label {
     }
 
     &.buscar:before {
+        cursor: pointer;
         position: absolute;
         content: "\f002";
         color: #b6afaf;
@@ -98,7 +100,7 @@ label {
     font-size: 32px;
     color: #fff;
     bottom: 120px;
-    left: 70px;
+    left: 65px;
 }
 
 .reproductor .control {
