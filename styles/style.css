@@ -44,6 +44,7 @@ body {
 }
 
 label.menuHamburguesa:before {
+  cursor: pointer;
   position: absolute;
   content: "\f0c9";
   color: #b6afaf;
@@ -52,6 +53,7 @@ label.menuHamburguesa:before {
   left: 20px;
 }
 label.buscar:before {
+  cursor: pointer;
   position: absolute;
   content: "\f002";
   color: #b6afaf;
@@ -133,39 +135,48 @@ label.buscar:before {
 
 .like:before {
   content: "\f08a";
+  cursor: pointer;
 }
 
 .aleatorio:before {
   content: "\f074";
+  cursor: pointer;
 }
 
 .repetir:before {
   content: "\f01e";
+  cursor: pointer;
 }
 
 .masOpciones:before {
   content: "\f141";
+  cursor: pointer;
 }
 
 #like:checked + label.like:before {
   content: "\f004";
   color: #ff564c;
+  cursor: pointer;
 }
 
 #aleatorio:checked + label.aleatorio:before {
+  cursor: pointer;
   color: #ff564c;
 }
 
 #repetir:checked + label.repetir:before {
+  cursor: pointer;
   color: #ff564c;
 }
 
 #masOpciones:checked + label.masOpciones:before {
+  cursor: pointer;
   color: #ff564c;
 }
 
 audio {
   visibility: hidden;
 }
+
 
 /*# sourceMappingURL=style.css.map */
