@@ -1,3 +1,3 @@
 # ParcialUno - DesarrolloWeb
 
-![alt text](https://github.com/YouthDaconer/ParcialUno-DesarrolloWeb/edit/master/Parcial 1 web.PNG)
+![alt text](https://github.com/YouthDaconer/ParcialUno-DesarrolloWeb/edit/master/Parcial_1_web.PNG)
