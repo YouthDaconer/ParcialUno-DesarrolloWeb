@@ -103,8 +103,10 @@ label {
     left: 65px;
 }
 
-.reproductor .control {
-    width: 75px;
+.reproductor {
+    .control {
+        width: 75px;
+    }
 }
 
 .btnAtras:before {
@@ -117,8 +119,10 @@ label {
     cursor: pointer;
 }
 
-#btnReproducir:checked + label.btnReproducir:before {
-    content: "\f04c";
+#btnReproducir:checked {
+    + label.btnReproducir:before {
+        content: "\f04c";
+    }
 }
 
 .btnAdelante:before {
@@ -158,25 +162,33 @@ label {
     content: "\f141";
 }
 
-#like:checked + label.like:before {
-    content: "\f004";
-    color: #ff564c;
-    cursor: pointer;
+#like:checked {
+    + label.like:before {
+        content: "\f004";
+        color: #ff564c;
+        cursor: pointer;
+    }
 }
 
-#aleatorio:checked + label.aleatorio:before {
-    color: #ff564c;
-    cursor: pointer;
+#aleatorio:checked {
+    + label.aleatorio:before {
+        color: #ff564c;
+        cursor: pointer;
+    }
 }
 
-#repetir:checked + label.repetir:before {
-    color: #ff564c;
-    cursor: pointer;
+#repetir:checked {
+    + label.repetir:before {
+        color: #ff564c;
+        cursor: pointer;
+    }
 }
 
-#masOpciones:checked + label.masOpciones:before {
-    color: #ff564c;
-    cursor: pointer;
+#masOpciones:checked {
+    + label.masOpciones:before {
+        color: #ff564c;
+        cursor: pointer;
+    }
 }
 
 audio {
