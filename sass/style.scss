@@ -134,40 +134,47 @@ label {
     position: absolute;
     bottom: 10px;
     left: 23px;
-    cursor: pointer;
 }
 
 .like:before {
+    cursor: pointer;
     content: "\f08a";
 }
 
 .aleatorio:before {
+    cursor: pointer;
     content: "\f074";
 }
 
 .repetir:before {
+    cursor: pointer;
     content: "\f01e";
 }
 
 .masOpciones:before {
+    cursor: pointer;
     content: "\f141";
 }
 
 #like:checked + label.like:before {
     content: "\f004";
     color: #ff564c;
+    cursor: pointer;
 }
 
 #aleatorio:checked + label.aleatorio:before {
     color: #ff564c;
+    cursor: pointer;
 }
 
 #repetir:checked + label.repetir:before {
     color: #ff564c;
+    cursor: pointer;
 }
 
 #masOpciones:checked + label.masOpciones:before {
     color: #ff564c;
+    cursor: pointer;
 }
 
 audio {
